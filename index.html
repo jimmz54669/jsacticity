@@ -40,10 +40,51 @@
         <button type="button" class="btn btn-danger colorPromt" onclick="document.getElementById('red').style.color = 'red'">Click here to change color</button>
 
         <!----->
-        <h1 id="upCase" class="mt-5"></h1>
+        <div class="container mt-5">
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#myUppercase">
+                Uppercase
+            </button>
+            <div class="modal" id="myUppercase">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Uppercase</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h1 id="upCase"></h1>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!----->
-        <h1 id="lowCase" class="mt-5"></h1>
+        <div class="container mt-5">
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#myLowercase">
+                Lowercase
+            </button>
+            <div class="modal" id="myLowercase">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            Lowercase
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h1 id="lowCase"></h1>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
 
         <!----->
         <h1 id="positive"></h1>
