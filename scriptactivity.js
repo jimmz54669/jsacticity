@@ -44,7 +44,7 @@ if (id in cart) {
     sum += price;
 
     console.log(cart);
-    
+
     localStorage.setItem("cart", JSON.stringify(cart));
     updateCart();
 }
