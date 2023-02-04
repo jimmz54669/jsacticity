@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    background: gray;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.addCart button{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.addCart button:hover {
+    background: black;
+    color: white;
+}
+
+.location {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.location:hover {
+    background: black;
+    color: white;
+}
+
+.location a{
+    text-decoration: none;
+    color: white;
+    padding-left: 155px;
+    padding-right: 155px;
+}
+
+.toalert{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.toalert:hover {
+    background: black;
+    color: white;
+}
+
+.toalert a{
+    text-decoration: none;
+    color: white;
+    padding-left: 155px;
+    padding-right: 155px;
+}
+
+.sum {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.sum:hover {
+    background: lightgray;
+    color: white;
+}
+
+.sum a{
+    text-decoration: none;
+    color: black;
+    padding-left: 155px;
+    padding-right: 155px;
+}
