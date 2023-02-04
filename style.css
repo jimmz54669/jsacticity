@@ -28,6 +28,12 @@
     color: white;
 }
 
+.cart a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
 .location {
     width: 50%;
     margin-bottom: 30px;

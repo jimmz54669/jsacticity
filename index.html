@@ -13,15 +13,23 @@
     <div class="navbar">
         <h1 class="brand">Shop</h1>
         <p class="cart">
-            <i class="bi bi-cart3"></i>:
-            <span id="count">0</span>
+            <a href="cart.html">
+                <i class="bi bi-cart3"></i>:
+                <span id="count">0</span> Price:
+                <span id="sum">0</span>
+            </a>
         </p>
     </div>
 
     <div class="container">
         <!---->
         <div class="addCart mt-5">
-            <button class="btn btn-success" data-id="1">Add to cart</button>
+            <div class="product">
+                <img src ="6422199.png" alt="cat1" height="150" width="140">
+                <h3>Logo</h3>
+                <p>Price: 100</p>
+                <button data-id="1" data-price="100" data-title="Logo">Add to cart</button>
+            </div>
         </div>
 
         <!---->
